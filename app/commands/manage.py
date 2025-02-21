@@ -1,4 +1,4 @@
-from app.commands.first_group import user_cli
+from app.commands.user_group import user_cli
 
 command_groups = [
     user_cli,
