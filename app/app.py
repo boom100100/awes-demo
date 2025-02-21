@@ -3,9 +3,7 @@ import os
 from flask import Flask
 
 from app.constants import SECRET_KEY
-
-
-
+from app.commands import add_commands
 
 
 def create_app(test_config=None):
@@ -31,3 +29,5 @@ def create_app(test_config=None):
     return app
 
 app = create_app()
+
+add_commands(app)
