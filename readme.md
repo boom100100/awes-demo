@@ -51,7 +51,7 @@ Run the following from the project's root directory:
 
 ## Add new CLI commands
 
-CLI commands live in `app/manage.py`. Call them with the following structure: `flask <app_group_name> <command_name> <arg1> <arg2>`, e.g. `flask users create username super_secret_password`.
+CLI commands live in `app/commands`. Call them with the following structure: `flask <app_group_name> <command_name> <arg1> <arg2>`, e.g. `flask users create username super_secret_password`.
 
 
 ## Troubleshooting
