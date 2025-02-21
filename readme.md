@@ -1,5 +1,10 @@
 # CLI Tools
 
+## Description
+
+A shell project for creating python CLI tools.
+
+
 ## Setup
 
     cd projectDir
