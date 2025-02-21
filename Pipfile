@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+blinker = "*"
+click = "*"
+importlib_metadata = "*"
+itsdangerous = "*"
+Mako = "*"
+MarkupSafe = "*"
+typing_extensions = "*"
+Werkzeug = "*"
+zipp = "*"
+python-dotenv = "*"
+jinja2 = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
