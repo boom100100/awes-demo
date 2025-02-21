@@ -16,7 +16,6 @@ zipp = "*"
 python-dotenv = "*"
 jinja2 = "*"
 flask = "*"
-flask-script = "*"
 
 [dev-packages]
 
