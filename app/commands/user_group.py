@@ -1,6 +1,7 @@
 import click
 
 from app.commands.groups import user_cli
+from app.services import User
 
 
 
@@ -16,3 +17,5 @@ from app.commands.groups import user_cli
 # and use the same name for argument mapping so it's not confusing
 def create_user(name, name2): 
     print(name + name2)
+    user = User()
+    user.create()

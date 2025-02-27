@@ -51,7 +51,7 @@ Run the following from the project's root directory:
 
 ## Add new CLI commands
 
-CLI commands live in `app/commands`. Call them with the following structure: `flask <app_group_name> <command_name> <arg1> <arg2>`, e.g. `flask users create username super_secret_password`.
+CLI commands live in `app/commands`. Call them with the following structure: `flask <app_group_name> <command_name> <arg1> <arg2>`, e.g. `flask user create username super_secret_password`.
 
 
 ## Troubleshooting
@@ -68,7 +68,7 @@ In some sytem states, the Pipenv shell may not recognize dependencies after they
 > `> flask --version`
 > zsh: command not found: flask
 
-Users should `exit` instead of `deactivate`.
+Run `exit` instead of `deactivate`.
 
 In any case (e.g. even if `deactivate` *is* accidentally used), just exit and reenter the shell as usual:
 
